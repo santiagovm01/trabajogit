@@ -2,7 +2,7 @@ package libreria;
 import java.util.ArrayList;
 import java.util.List;
 /**
- * Clase que representa un chatbot simple.
+ * Clase que representa un  simple.
  * Utiliza un modelo de lenguaje para generar respuestas.
  *
  * @author santiago
