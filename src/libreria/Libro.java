@@ -13,7 +13,7 @@ public class Libro {
     private String autor;
 
     /**
-     *
+     * Constructor de la clase Book.
      *
      * @param titulo  El título del libro.
      * @param autor El autor del libro.
@@ -24,7 +24,7 @@ public class Libro {
     }
 
     /**
-     *
+     * Este método devuelve el título del libro.
      *
      * @return El título del libro.
      */
@@ -33,6 +33,7 @@ public class Libro {
     }
 
     /**
+     * Este método establece el título del libro.
      *
      * @param titulo El nuevo título del libro.
      */
@@ -41,7 +42,7 @@ public class Libro {
     }
 
     /**
-
+     * Este método devuelve el autor del libro.
      *
      * @return El autor del libro.
      */
@@ -49,5 +50,12 @@ public class Libro {
         return autor;
     }
 
-
+    /**
+     *
+     *
+     * @param autor El nuevo autor del libro.
+     */
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
 }
