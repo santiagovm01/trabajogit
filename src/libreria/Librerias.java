@@ -21,5 +21,12 @@ public class Librerias {
         this.libros.add(libro);
     }
 
-
+    /**
+     * Este método devuelve todos los libros de la libreria.
+     *
+     * @return Una lista de libros.
+     */
+    public List<Libro> getLibros() {
+        return libros;
+    }
 }
