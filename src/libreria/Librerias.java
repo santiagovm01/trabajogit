@@ -12,6 +12,14 @@ public class Librerias {
         this.libros = new ArrayList<>();
     }
 
+    /**
+     * Este método añade un libro a la libreria.
+     *
+     * @param libro El libro a añadir.
+     */
+    public void addLibro(Libro libro) {
+        this.libros.add(libro);
+    }
 
 
 }
