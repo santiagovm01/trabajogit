@@ -32,7 +32,14 @@ public class Libro {
         return titulo;
     }
 
-
+    /**
+     *
+     *
+     * @param titulo El nuevo título del libro.
+     */
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
 
 
 
