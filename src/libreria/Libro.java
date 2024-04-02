@@ -2,9 +2,9 @@ package libreria;
 /**
  * Esta clase representa un libro en una biblioteca.
  *
- * @author Tu nombre
+ * @author santiago
  * @version 1.0
- * @since 1.0
+ * @since 02/04/2024
  */
 public class Libro {
 
@@ -51,7 +51,7 @@ public class Libro {
     }
 
     /**
-     *
+     * Este método establece el autor del libro.
      *
      * @param autor El nuevo autor del libro.
      */
