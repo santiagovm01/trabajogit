@@ -34,14 +34,20 @@ public class Libro {
 
     /**
      *
-     *
      * @param titulo El nuevo título del libro.
      */
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
 
+    /**
 
+     *
+     * @return El autor del libro.
+     */
+    public String getAutor() {
+        return autor;
+    }
 
 
 }
