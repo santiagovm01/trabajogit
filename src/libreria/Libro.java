@@ -23,6 +23,14 @@ public class Libro {
         this.autor = autor;
     }
 
+    /**
+     *
+     *
+     * @return El título del libro.
+     */
+    public String getTitulo() {
+        return titulo;
+    }
 
 
 
